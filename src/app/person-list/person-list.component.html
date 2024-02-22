@@ -1,0 +1,4 @@
+<div *ngFor="let person of persons$ | async">
+    <h3> {{person.name.first }} {{person.name.last}}</h3>
+    <p> {{person.location.city}}</p>
+</div>
